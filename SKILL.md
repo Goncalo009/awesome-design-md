@@ -1,212 +1,204 @@
-LS0tCm5hbWU6IGF3ZXNvbWUtZGVzaWduLW1kCmNhdGVnb3J5OiB3ZWItZGV2
-ZWxvcG1lbnQKZGVzY3JpcHRpb246IEFjY2VzcyA1OCBjdXJhdGVkIERFU0lH
-Ti5tZCBkZXNpZ24gc3lzdGVtcyBmcm9tIHJlYWwgd2Vic2l0ZXMuIFVzZSBE
-RVNJR04ubWQgZmlsZXMgd2l0aCBBSSBjb2RpbmcgYWdlbnRzIChHb29nbGUg
-U3RpdGNoLCBDbGF1ZGUgQ29kZSwgQ29kZXgpIHRvIGdlbmVyYXRlIHBpeGVs
-LXBlcmZlY3QgVUkgdGhhdCBtYXRjaGVzIHRoZSB0YXJnZXQgZGVzaWduLgot
-LS0KCiMgQXdlc29tZSBERVNJR04ubWQgQ29sbGVjdGlvbgoKQWNjZXNzIDU4
-IHByb2R1Y3Rpb24tZ3JhZGUgZGVzaWduIHN5c3RlbXMgYXMgcGxhaW4tdGV4
-dCBERVNJR04ubWQgZmlsZXMuIERyb3Agb25lIGludG8gYW55IHByb2plY3Qg
-cm9vdCBhbmQgYW55IEFJIGNvZGluZyBhZ2VudCBpbnN0YW50bHkgdW5kZXJz
-dGFuZHMgaG93IHRoZSBVSSBzaG91bGQgbG9vay4KCiMjIFdoYXQgaXMgREVT
-SUdOLm1kPwoKREVTSUdOLm1kIGlzIGEgbWFya2Rvd24tYmFzZWQgZGVzaWdu
-IHN5c3RlbSBkb2N1bWVudCB0aGF0IEFJIGFnZW50cyByZWFkIHRvIGdlbmVy
-YXRlIGNvbnNpc3RlbnQgVUkuIEludHJvZHVjZWQgYnkgW0dvb2dsZSBTdGl0
-Y2hdKGh0dHBzOi8vc3RpdGNoLndpdGhnb29nbGUuY29tL2RvY3MvZGVzaWdu
-LW1kL292ZXJ2aWV3LyksIGl0IHJlcGxhY2VzIEZpZ21hIGV4cG9ydHMsIEpT
-T04gc2NoZW1hcywgYW5kIHNwZWNpYWwgdG9vbGluZy4KCnwgRmlsZSB8IFdo
-byByZWFkcyBpdCB8IFdoYXQgaXQgZGVmaW5lcyB8CnwtLS0tLS18LS0tLS0t
-LS0tLS0tLXwtLS0tLS0tLS0tLS0tLS0tLXwKfCBgQUdFTlRTLm1kYCB8IENv
-ZGluZyBhZ2VudHMgfCBIb3cgdG8gYnVpbGQgdGhlIHByb2plY3QgfAp8IGBE
-RVNJR04ubWRgIHwgRGVzaWduIGFnZW50cyB8IEhvdyB0aGUgcHJvamVjdCBz
-aG91bGQgbG9vayBhbmQgZmVlbCB8CgojIyBTb3VyY2UKCkNvbGxlY3Rpb246
-IFtWb2x0QWdlbnQvYXdlc29tZS1kZXNpZ24tbWRdKGh0dHBzOi8vZ2l0aHVi
-LmNvbS9Wb2x0QWdlbnQvYXdlc29tZS1kZXNpZ24tbWQpICg1OCBkZXNpZ25z
-LCBNSVQgTGljZW5zZSkKCiMjIEF2YWlsYWJsZSBEZXNpZ24gU3lzdGVtcwoK
-IyMjIEFJICYgTWFjaGluZSBMZWFybmluZyAoMTIpCnwgRGVzaWduIHwgVmli
-ZSB8IEtleSBDb2xvcnMgfAp8LS0tLS0tLS18LS0tLS0tfC0tLS0tLS0tLS0t
-LXwKfCAqKkNsYXVkZSoqIHwgV2FybSB0ZXJyYWNvdHRhLCBlZGl0b3JpYWwg
-fCBXYXJtIHRvbmVzLCBjbGVhbiB8CnwgKipDb2hlcmUqKiB8IFZpYnJhbnQg
-Z3JhZGllbnRzLCBkYXRhIGRhc2hib2FyZHMgfCBNdWx0aS1ncmFkaWVudCB8
-CnwgKipFbGV2ZW5MYWJzKiogfCBEYXJrIGNpbmVtYXRpYywgYXVkaW8td2F2
-ZWZvcm0gfCBEYXJrLCByaWNoIHwKfCAqKk1pbmltYXgqKiB8IEJvbGQgZGFy
-aywgbmVvbiBhY2NlbnRzIHwgQmxhY2sgKyBuZW9uIHwKfCAqKk1pc3RyYWwg
-QUkqKiB8IEZyZW5jaCBtaW5pbWFsaXNtLCBwdXJwbGUtdG9uZWQgfCBQdXJw
-bGUsIGNsZWFuIHwKfCAqKk9sbGFtYSoqIHwgVGVybWluYWwtZmlyc3QsIG1v
-bm9jaHJvbWUgfCBNb25vY2hyb21lIHwKfCAqKk9wZW5Db2RlIEFJKiogfCBE
-ZXZlbG9wZXItZGFyaywgY29kZS1jZW50cmljIHwgRGFyayBkZXYgfAp8ICoq
-UmVwbGljYXRlKiogfCBXaGl0ZSBjYW52YXMsIGNvZGUtZm9yd2FyZCB8IFdo
-aXRlLCBjb2RlIHwKfCAqKlJ1bndheU1MKiogfCBDaW5lbWF0aWMgZGFyaywg
-bWVkaWEtcmljaCB8IERhcmsgbWVkaWEgfAp8ICoqVG9nZXRoZXIgQUkqKiB8
-IFRlY2huaWNhbCwgYmx1ZXByaW50LXN0eWxlIHwgQmx1ZXByaW50IHwKfCAq
-KlZvbHRBZ2VudCoqIHwgVm9pZC1ibGFjaywgZW1lcmFsZCwgdGVybWluYWwg
-fCBCbGFjayArIGVtZXJhbGQgfAp8ICoqeEFJKiogfCBTdGFyayBtb25vY2hy
-b21lLCBmdXR1cmlzdGljIHwgTW9ubyBtaW5pbWFsIHwKCiMjIyBEZXZlbG9w
-ZXIgVG9vbHMgJiBQbGF0Zm9ybXMgKDEzKQp8IERlc2lnbiB8IFZpYmUgfCBL
-ZXkgQ29sb3JzIHwKfC0tLS0tLS0tfC0tLS0tLXwtLS0tLS0tLS0tLS18Cnwg
-KipDdXJzb3IqKiB8IFNsZWVrIGRhcmssIGdyYWRpZW50IGFjY2VudHMgfCBE
-YXJrICsgZ3JhZGllbnQgfAp8ICoqRXhwbyoqIHwgRGFyaywgdGlnaHQgbGV0
-dGVyLXNwYWNpbmcsIGNvZGUgfCBEYXJrIGRldiB8CnwgKipMaW5lYXIuYXBw
-KiogfCBVbHRyYS1taW5pbWFsLCBwcmVjaXNlLCBwdXJwbGUgfCBgIzA4MDkw
-YWAgKyBgIzVlNmFkMmAgfAp8ICoqTG92YWJsZSoqIHwgUGxheWZ1bCBncmFk
-aWVudHMsIGZyaWVuZGx5IGRldiB8IEdyYWRpZW50IHwKfCAqKk1pbnRsaWZ5
-KiogfCBDbGVhbiwgZ3JlZW4sIHJlYWRpbmctb3B0aW1pemVkIHwgR3JlZW4g
-YWNjZW50IHwKfCAqKlBvc3RIb2cqKiB8IFBsYXlmdWwsIGRldi1mcmllbmRs
-eSBkYXJrIHwgRGFyayArIGFjY2VudCB8CnwgKipSYXljYXN0KiogfCBEYXJr
-IGNocm9tZSwgdmlicmFudCBncmFkaWVudHMgfCBEYXJrICsgZ3JhZGllbnQg
-fAp8ICoqUmVzZW5kKiogfCBNaW5pbWFsIGRhcmssIG1vbm9zcGFjZSBhY2Nl
-bnRzIHwgRGFyayBtaW5pbWFsIHwKfCAqKlNlbnRyeSoqIHwgRGFyayBkYXNo
-Ym9hcmQsIGRhdGEtZGVuc2UsIHBpbmsgfCBgIzA4MDkwYWAgKyBwaW5rLXB1
-cnBsZSB8CnwgKipTdXBhYmFzZSoqIHwgRGFyayBlbWVyYWxkLCBjb2RlLWZp
-cnN0IHwgRGFyayArIGVtZXJhbGQgfAp8ICoqU3VwZXJodW1hbioqIHwgUHJl
-bWl1bSBkYXJrLCBrZXlib2FyZC1maXJzdCB8IERhcmsgKyBwdXJwbGUgZ2xv
-dyB8CnwgKipWZXJjZWwqKiB8IEJsYWNrL3doaXRlLCBHZWlzdCBmb250IHwg
-YCMwMDBgL2AjZmZmYCB8CnwgKipXYXJwKiogfCBEYXJrIElERSwgYmxvY2sg
-Y29tbWFuZHMgfCBEYXJrIElERSB8CnwgKipaYXBpZXIqKiB8IFdhcm0gb3Jh
-bmdlLCBpbGx1c3RyYXRpb24gfCBPcmFuZ2UsIHdhcm0gfAoKIyMjIEluZnJh
-c3RydWN0dXJlICYgQ2xvdWQgKDYpCnwgRGVzaWduIHwgVmliZSB8IEtleSBD
-b2xvcnMgfAp8LS0tLS0tLS18LS0tLS0tfC0tLS0tLS0tLS0tLXwKfCAqKkNs
-aWNrSG91c2UqKiB8IFllbGxvdyB0ZWNobmljYWwgZG9jcyB8IFllbGxvdyBh
-Y2NlbnQgfAp8ICoqQ29tcG9zaW8qKiB8IE1vZGVybiBkYXJrLCBjb2xvcmZ1
-bCBpY29ucyB8IERhcmsgY29sb3JmdWwgfAp8ICoqSGFzaGlDb3JwKiogfCBF
-bnRlcnByaXNlIGNsZWFuLCBibGFjay93aGl0ZSB8IEVudGVycHJpc2UgfAp8
-ICoqTW9uZ29EQioqIHwgR3JlZW4gbGVhZiwgZGV2IGRvY3MgfCBHcmVlbiB8
-CnwgKipTYW5pdHkqKiB8IFJlZCBhY2NlbnQsIGNvbnRlbnQtZmlyc3QgZWRp
-dG9yaWFsIHwgUmVkIGFjY2VudCB8CnwgKipTdHJpcGUqKiB8IFNpZ25hdHVy
-ZSBwdXJwbGUsIHdlaWdodC0zMDAgZWxlZ2FuY2UgfCBQdXJwbGUgZ3JhZGll
-bnQgfAoKIyMjIERlc2lnbiAmIFByb2R1Y3Rpdml0eSAoOSkKfCBEZXNpZ24g
-fCBWaWJlIHwgS2V5IENvbG9ycyB8CnwtLS0tLS0tLXwtLS0tLS18LS0tLS0t
-LS0tLS0tfAp8ICoqQWlydGFibGUqKiB8IENvbG9yZnVsLCBmcmllbmRseSwg
-c3RydWN0dXJlZCBkYXRhIHwgTXVsdGktY29sb3IgfAp8ICoqQ2FsLmNvbSoq
-IHwgQ2xlYW4gbmV1dHJhbCwgc2NoZWR1bGluZyB8IE5ldXRyYWwgfAp8ICoq
-Q2xheSoqIHwgT3JnYW5pYywgc29mdCBncmFkaWVudHMsIGFydC1kaXJlY3Rl
-ZCB8IFNvZnQgZ3JhZGllbnQgfAp8ICoqRmlnbWEqKiB8IFZpYnJhbnQgbXVs
-dGktY29sb3IsIHBsYXlmdWwgfCBNdWx0aS1jb2xvciB8CnwgKipGcmFtZXIq
-KiB8IEJvbGQgYmxhY2svYmx1ZSwgbW90aW9uLWZpcnN0IHwgQmxhY2sgKyBi
-bHVlIHwKfCAqKkludGVyY29tKiogfCBGcmllbmRseSBibHVlLCBjb252ZXJz
-YXRpb25hbCBVSSB8IEJsdWUgfAp8ICoqTWlybyoqIHwgQnJpZ2h0IHllbGxv
-dywgaW5maW5pdGUgY2FudmFzIHwgWWVsbG93IHwKfCAqKk5vdGlvbioqIHwg
-V2FybSBtaW5pbWFsaXNtLCBzZXJpZiBoZWFkaW5ncyB8IFdhcm0gbmV1dHJh
-bCB8CnwgKipQaW50ZXJlc3QqKiB8IFJlZCBhY2NlbnQsIG1hc29ucnksIGlt
-YWdlLWZpcnN0IHwgUmVkIHwKfCAqKldlYmZsb3cqKiB8IEJsdWUsIHBvbGlz
-aGVkIG1hcmtldGluZyB8IEJsdWUgfAoKIyMjIEZpbnRlY2ggJiBDcnlwdG8g
-KDQpCnwgRGVzaWduIHwgVmliZSB8IEtleSBDb2xvcnMgfAp8LS0tLS0tLS18
-LS0tLS0tfC0tLS0tLS0tLS0tLXwKfCAqKkNvaW5iYXNlKiogfCBDbGVhbiBi
-bHVlLCBpbnN0aXR1dGlvbmFsIHRydXN0IHwgQmx1ZSB8CnwgKipLcmFrZW4q
-KiB8IFB1cnBsZSBkYXJrLCBkYXRhLWRlbnNlIGRhc2hib2FyZHMgfCBQdXJw
-bGUgZGFyayB8CnwgKipSZXZvbHV0KiogfCBTbGVlayBkYXJrLCBncmFkaWVu
-dCBjYXJkcywgcHJlY2lzaW9uIHwgRGFyayBncmFkaWVudCB8CnwgKipXaXNl
-KiogfCBCcmlnaHQgZ3JlZW4sIGZyaWVuZGx5IGFuZCBjbGVhciB8IEdyZWVu
-IHwKCiMjIyBFbnRlcnByaXNlICYgQ29uc3VtZXIgKDUpCnwgRGVzaWduIHwg
-VmliZSB8IEtleSBDb2xvcnMgfAp8LS0tLS0tLS18LS0tLS0tfC0tLS0tLS0t
-LS0tLXwKfCAqKkFpcmJuYioqIHwgV2FybSBjb3JhbCwgcGhvdG9ncmFwaHks
-IHJvdW5kZWQgfCBDb3JhbCBgI0ZGNUE1RmAgfAp8ICoqQXBwbGUqKiB8IFBy
-ZW1pdW0gd2hpdGVzcGFjZSwgU0YgUHJvLCBjaW5lbWF0aWMgfCBXaGl0ZSBz
-cGFjZSB8CnwgKipJQk0qKiB8IENhcmJvbiBkZXNpZ24gc3lzdGVtLCBzdHJ1
-Y3R1cmVkIGJsdWUgfCBJQk0gQmx1ZSB8CnwgKipOVklESUEqKiB8IEdyZWVu
-LWJsYWNrLCB0ZWNobmljYWwgcG93ZXIgfCBHcmVlbi1ibGFjayB8CnwgKipT
-cGFjZVgqKiB8IFN0YXJrIGJsYWNrL3doaXRlLCBmdWxsLWJsZWVkIHwgQmxh
-Y2svd2hpdGUgfAp8ICoqU3BvdGlmeSoqIHwgVmlicmFudCBncmVlbiBvbiBk
-YXJrLCBib2xkIHR5cGUgfCBgIzFEQjk1NGAgZGFyayB8CnwgKipVYmVyKiog
-fCBCb2xkIGJsYWNrL3doaXRlLCB0aWdodCB0eXBlIHwgQmxhY2svd2hpdGUg
-fAoKIyMjIENhciBCcmFuZHMgKDUpCnwgRGVzaWduIHwgVmliZSB8IEtleSBD
-b2xvcnMgfAp8LS0tLS0tLS18LS0tLS0tfC0tLS0tLS0tLS0tLXwKfCAqKkJN
-VyoqIHwgRGFyayBwcmVtaXVtLCBHZXJtYW4gZW5naW5lZXJpbmcgfCBEYXJr
-IHByZW1pdW0gfAp8ICoqRmVycmFyaSoqIHwgQ2hpYXJvc2N1cm8sIEZlcnJh
-cmkgUmVkLCBzcGFyc2UgfCBSZWQgb24gYmxhY2svd2hpdGUgfAp8ICoqTGFt
-Ym9yZ2hpbmkqKiB8IFRydWUgYmxhY2ssIGdvbGQsIE5lby1Hcm90ZXNrIHwg
-QmxhY2sgKyBnb2xkIHwKfCAqKlJlbmF1bHQqKiB8IEF1cm9yYSBncmFkaWVu
-dHMsIE5vdXZlbFIgdHlwZSB8IEF1cm9yYSBncmFkaWVudCB8CnwgKipUZXNs
-YSoqIHwgUmFkaWNhbCBzdWJ0cmFjdGlvbiwgY2luZW1hdGljIHwgQmxhY2sv
-d2hpdGUgfAoKIyMgRm9ybWF0IFN0cnVjdHVyZQoKRXZlcnkgREVTSUdOLm1k
-IGhhcyA5IHNlY3Rpb25zOgoxLiAqKlZpc3VhbCBUaGVtZSAmIEF0bW9zcGhl
-cmUqKiDigJQgTW9vZCwgZGVuc2l0eSwgZGVzaWduIHBoaWxvc29waHkKMi4g
-KipDb2xvciBQYWxldHRlICYgUm9sZXMqKiDigJQgU2VtYW50aWMgbmFtZSAr
-IGhleCArIGZ1bmN0aW9uYWwgcm9sZQozLiAqKlR5cG9ncmFwaHkgUnVsZXMq
-KiDigJQgRm9udCBmYW1pbGllcywgZnVsbCBoaWVyYXJjaHkgdGFibGUKNC4g
-KipDb21wb25lbnQgU3R5bGluZ3MqKiDigJQgQnV0dG9ucywgY2FyZHMsIGlu
-cHV0cywgbmF2IHdpdGggc3RhdGVzCjUuICoqTGF5b3V0IFByaW5jaXBsZXMq
-KiDigJQgU3BhY2luZyBzY2FsZSwgZ3JpZCwgd2hpdGVzcGFjZSBwaGlsb3Nv
-cGh5CjYuICoqRGVwdGggJiBFbGV2YXRpb24qKiDigJQgU2hhZG93IHN5c3Rl
-bSwgc3VyZmFjZSBoaWVyYXJjaHkKNy4gKipEbydzIGFuZCBEb24ndHMqKiDi
-gJQgRGVzaWduIGd1YXJkcmFpbHMgYW5kIGFudGktcGF0dGVybnMKOC4gKipS
-ZXNwb25zaXZlIEJlaGF2aW9yKiog4oCUIEJyZWFrcG9pbnRzLCB0b3VjaCB0
-YXJnZXRzLCBjb2xsYXBzaW5nCjkuICoqQWdlbnQgUHJvbXB0IEd1aWRlKiog
-4oCUIFF1aWNrIGNvbG9yIHJlZiwgcmVhZHktdG8tdXNlIHByb21wdHMKCkVh
-Y2ggZGVzaWduIGFsc28gaW5jbHVkZXMgYHByZXZpZXcuaHRtbGAgKHZpc3Vh
-bCBjYXRhbG9nIHdpdGggc3dhdGNoZXMpIGFuZCBgcHJldmlldy1kYXJrLmh0
-bWxgLgoKIyMgSG93IHRvIFVzZQoKIyMjIE9wdGlvbiAxOiBEaXJlY3QgZnJv
-bSBHaXRIdWIgKHJlY29tbWVuZGVkKQpDb3B5IGEgREVTSUdOLm1kIGRpcmVj
-dGx5IGludG8geW91ciBwcm9qZWN0OgoKYGBgYmFzaAojIEV4YW1wbGU6IGdl
-dCBMaW5lYXIncyBkZXNpZ24gc3lzdGVtCmN1cmwgLUwgXAogICJodHRwczov
-L3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vVm9sdEFnZW50L2F3ZXNvbWUt
-ZGVzaWduLW1kL21haW4vZGVzaWduLW1kL2xpbmVhci5hcHAvREVTSUdOLm1k
-IiBcCiAgLW8gREVTSUdOLm1kCmBgYAoKIyMjIE9wdGlvbiAyOiBDbG9uZSAr
-IENvcHkKYGBgYmFzaApnaXQgY2xvbmUgLS1kZXB0aCAxIGh0dHBzOi8vZ2l0
-aHViLmNvbS9Wb2x0QWdlbnQvYXdlc29tZS1kZXNpZ24tbWQuZ2l0IC90bXAv
-ZGVzaWduLW1kCmNwIC90bXAvZGVzaWduLW1kL2Rlc2lnbi1tZC88c2l0ZS1u
-YW1lPi9ERVNJR04ubWQgL3lvdXIvcHJvamVjdC8KYGBgCgojIyMgT3B0aW9u
-IDM6IEFzayB0aGUgYWdlbnQKVGVsbCB0aGUgYWdlbnQ6ICJsb2FkIHNraWxs
-IGF3ZXNvbWUtZGVzaWduLW1kIGFuZCB1c2UgdGhlIFtMaW5lYXIvU3VwYWJh
-c2UvU3RyaXBlXSBkZXNpZ24gc3lzdGVtIgoKIyMjIFdpdGggQUkgQ29kaW5n
-IEFnZW50cwpPbmNlIERFU0lHTi5tZCBpcyBpbiB5b3VyIHByb2plY3Qgcm9v
-dDoKCjEuICoqR29vZ2xlIFN0aXRjaCoqOiBBdXRvbWF0aWNhbGx5IHBpY2tz
-IGl0IHVwIHdoZW4gZ2VuZXJhdGluZyBVSSBsYXlvdXRzCjIuICoqQ2xhdWRl
-IENvZGUqKjogYFJlYWQgdGhlIERFU0lHTi5tZCBmaWxlIGFuZCBidWlsZCBh
-IGhlcm8gc2VjdGlvbiB0aGF0IGZvbGxvd3MgdGhpcyBkZXNpZ24gc3lzdGVt
-YAozLiAqKkNvZGV4L09wZW5Db2RlKio6IGBJbXBsZW1lbnQgYSBjYXJkIGNv
-bXBvbmVudCB1c2luZyB0aGUgdG9rZW5zIGZyb20gREVTSUdOLm1kYAo0LiAq
-Kk1hbnVhbCoqOiBSZWZlcmVuY2Ugc3BlY2lmaWMgc2VjdGlvbnMg4oCUIGNv
-bG9ycywgdHlwb2dyYXBoeSwgY29tcG9uZW50cwoKIyMgV2hlbiB0byBVc2UK
-Ci0gU3RhcnRpbmcgYSBuZXcgcHJvamVjdCBhbmQgbmVlZCBhIHByb3ZlbiBk
-ZXNpZ24gc3lzdGVtIGluc3RhbnRseQotIFlvdSB3YW50IHlvdXIgVUkgdG8g
-bG9vayBsaWtlIExpbmVhci9WZXJjZWwvU3RyaXBlL05vdGlvbgotIEdvb2ds
-ZSBTdGl0Y2ggbGF5b3V0IGdlbmVyYXRpb24gKG5lZWRzIGEgREVTSUdOLm1k
-IHJlZmVyZW5jZSkKLSBDb252ZXJ0aW5nIGEgU3RpdGNoIGRlc2lnbiB0byBO
-ZXh0LmpzIHdpdGggZGVzaWduIHRva2VucwotIENsaWVudCB3YW50cyAic29t
-ZXRoaW5nIGxpa2UgTGluZWFyIGJ1dCBmb3IgWCIKCiMjIFBpdGZhbGxzCgot
-ICoqRG9uJ3QgbWl4IGRlc2lnbnMqKiDigJQgcGljayBPTkUgZGVzaWduIHN5
-c3RlbSBwZXIgcHJvamVjdCwgbWl4aW5nIGJyZWFrcyBjb2hlc2lvbgotICoq
-REVTSUdOLm1kIGlzIE5PVCB0aGUgZmluYWwgQ1NTKiog4oCUIGl0IGRlZmlu
-ZXMgdG9rZW5zLCBub3QgaW1wbGVtZW50YXRpb25zLiBUaGUgQUkgYWdlbnQg
-Z2VuZXJhdGVzIHRoZSBjb2RlLgotICoqQ3VzdG9tIGZvbnRzKiog4oCUIFNv
-bWUgZGVzaWducyB1c2UgcHJvcHJpZXRhcnkgZm9udHMgKEJlcmtlbGV5IE1v
-bm8gb24gTGluZWFyKS4gVXNlIGZhbGxiYWNrcyBmcm9tIHRoZSBkZXNpZ24g
-ZmlsZS4KLSAqKldlaWdodCA1MTAgb24gSW50ZXIqKiDigJQgTGluZWFyJ3Mg
-c2lnbmF0dXJlIHdlaWdodCBpcyBub24tc3RhbmRhcmQuIFVzZSBgZm9udC13
-ZWlnaHQ6IDUxMGAgaWYgdXNpbmcgSW50ZXIgVmFyaWFibGUuCi0gKipDb2xv
-ciBwcmVjaXNpb24qKiDigJQgRG9uJ3QgYXBwcm94aW1hdGUgY29sb3JzLiBV
-c2UgZXhhY3QgaGV4IHZhbHVlcyBmcm9tIHRoZSBERVNJR04ubWQuCi0gKipV
-cGRhdGUgY2hlY2sqKiDigJQgVGhlIGF3ZXNvbWUtZGVzaWduLW1kIHJlcG8g
-Z2V0cyB1cGRhdGVkLiBDaGVjayBmb3IgbmV3IGFkZGl0aW9ucyBwZXJpb2Rp
-Y2FsbHkuCgojIyBRdWljayBDb3B5IENvbW1hbmRzCgpgYGBiYXNoCiMgTGlu
-ZWFyIOKAlCB1bHRyYS1taW5pbWFsIGRhcmsgd2l0aCBwdXJwbGUgYWNjZW50
-CmN1cmwgLUwgImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9W
-b2x0QWdlbnQvYXdlc29tZS1kZXNpZ24tbWQvbWFpbi9kZXNpZ24tbWQvbGlu
-ZWFyLmFwcC9ERVNJR04ubWQiIC1vIERFU0lHTi5tZAoKIyBWZXJjZWwg4oCU
-IGJsYWNrL3doaXRlLCBHZWlzdCBmb250LCBjbGVhbgpjdXJsIC1MICJodHRw
-czovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vVm9sdEFnZW50L2F3ZXNv
-bWUtZGVzaWduLW1kL21haW4vZGVzaWduLW1kL3ZlcmNlbC9ERVNJR04ubWQi
-IC1vIERFU0lHTi5tZAoKIyBTdHJpcGUg4oCUIHB1cnBsZSBncmFkaWVudHMs
-IHdlaWdodC0zMDAgZWxlZ2FuY2UKY3VybCAtTCAiaHR0cHM6Ly9yYXcuZ2l0
-aHVidXNlcmNvbnRlbnQuY29tL1ZvbHRBZ2VudC9hd2Vzb21lLWRlc2lnbi1t
-ZC9tYWluL2Rlc2lnbi1tZC9zdHJpcGUvREVTSUdOLm1kIiAtbyBERVNJR04u
-bWQKCiMgTm90aW9uIOKAlCB3YXJtIG1pbmltYWxpc20sIHNlcmlmIGhlYWRp
-bmdzCmN1cmwgLUwgImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNv
-bS9Wb2x0QWdlbnQvYXdlc29tZS1kZXNpZ24tbWQvbWFpbi9kZXNpZ24tbWQv
-bm90aW9uL0RFU0lHTi5tZCIgLW8gREVTSUdOLm1kCgojIFN1cGFiYXNlIOKA
-lCBkYXJrIGVtZXJhbGQsIGNvZGUtZmlyc3QKY3VybCAtTCAiaHR0cHM6Ly9y
-YXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL1ZvbHRBZ2VudC9hd2Vzb21lLWRl
-c2lnbi1tZC9tYWluL2Rlc2lnbi1tZC9zdXBhYmFzZS9ERVNJR04ubWQiIC1v
-IERFU0lHTi5tZAoKIyBDb2luYmFzZSDigJQgY2xlYW4gYmx1ZSwgaW5zdGl0
-dXRpb25hbApjdXJsIC1MICJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVu
-dC5jb20vVm9sdEFnZW50L2F3ZXNvbWUtZGVzaWduLW1kL21haW4vZGVzaWdu
-LW1kL2NvaW5iYXNlL0RFU0lHTi5tZCIgLW8gREVTSUdOLm1kCgojIFNwb3Rp
-Znkg4oCUIGdyZWVuIG9uIGRhcmssIGJvbGQgdHlwZQpjdXJsIC1MICJodHRw
-czovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vVm9sdEFnZW50L2F3ZXNv
-bWUtZGVzaWduLW1kL21haW4vZGVzaWduLW1kL3Nwb3RpZnkvREVTSUdOLm1k
-IiAtbyBERVNJR04ubWQKCiMgQWlyYm5iIOKAlCB3YXJtIGNvcmFsLCBwaG90
-b2dyYXBoeS1kcml2ZW4KY3VybCAtTCAiaHR0cHM6Ly9yYXcuZ2l0aHVidXNl
-cmNvbnRlbnQuY29tL1ZvbHRBZ2VudC9hd2Vzb21lLWRlc2lnbi1tZC9tYWlu
-L2Rlc2lnbi1tZC9haXJibmIvREVTSUdOLm1kIiAtbyBERVNJR04ubWQKYGBg
-Cg==
+---
+name: awesome-design-md
+category: web-development
+description: Access 58 curated DESIGN.md design systems from real websites. Use DESIGN.md files with AI coding agents (Google Stitch, Claude Code, Codex) to generate pixel-perfect UI that matches the target design.
+tags: [design-systems, DESIGN.md, Google-Stitch, UI-generation, design-tokens]
+---
+
+# Awesome DESIGN.md Collection
+
+Access 58 production-grade design systems as plain-text DESIGN.md files. Drop one into any project root and any AI coding agent instantly understands how the UI should look.
+
+## Source
+
+Collection: [Goncalo009/awesome-design-md](https://github.com/Goncalo009/awesome-design-md) (58 designs with 174 files)
+Upstream: [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md)
+
+## What is DESIGN.md?
+
+DESIGN.md is a markdown-based design system document that AI agents read to generate consistent UI. Introduced by [Google Stitch](https://stitch.withgoogle.com/docs/design-md/overview/), it replaces Figma exports, JSON schemas, and special tooling.
+
+| File | Who reads it | What it defines |
+|------|-------------|-----------------|
+| `AGENTS.md` | Coding agents | How to build the project |
+| `DESIGN.md` | Design agents | How the project should look and feel |
+
+## Format Structure
+
+Every DESIGN.md follows the [Stitch DESIGN.md format](https://stitch.withgoogle.com/docs/design-md/format/) with 9 sections:
+
+1. **Visual Theme & Atmosphere** — Mood, density, design philosophy
+2. **Color Palette & Roles** — Semantic name + hex + functional role
+3. **Typography Rules** — Font families, full hierarchy table
+4. **Component Stylings** — Buttons, cards, inputs, nav with states
+5. **Layout Principles** — Spacing scale, grid, whitespace philosophy
+6. **Depth & Elevation** — Shadow system, surface hierarchy
+7. **Do's and Don'ts** — Design guardrails and anti-patterns
+8. **Responsive Behavior** — Breakpoints, touch targets, collapsing
+9. **Agent Prompt Guide** — Quick color ref, ready-to-use prompts
+
+Each design also includes `preview.html` and `preview-dark.html`.
+
+## Available Design Systems
+
+### AI & Machine Learning (12)
+| Design | Vibe | Key Colors |
+|--------|------|------------|
+| **Claude** | Warm terracotta, editorial | Warm tones |
+| **Cohere** | Vibrant gradients, data dashboards | Multi-gradient |
+| **ElevenLabs** | Dark cinematic, audio-waveform | Dark, rich |
+| **Minimax** | Bold dark, neon accents | Black + neon |
+| **Mistral AI** | French minimalism, purple-toned | Purple |
+| **Ollama** | Terminal-first, monochrome | Monochrome |
+| **OpenCode AI** | Developer-dark, code-centric | Dark dev |
+| **Replicate** | White canvas, code-forward | White, code |
+| **RunwayML** | Cinematic dark, media-rich | Dark media |
+| **Together AI** | Technical, blueprint-style | Blueprint |
+| **VoltAgent** | Void-black, emerald, terminal | Black + emerald |
+| **xAI** | Stark monochrome, futuristic | Mono minimal |
+
+### Developer Tools & Platforms (13)
+| Design | Vibe | Key Colors |
+|--------|------|------------|
+| **Cursor** | Sleek dark, gradient accents | Dark + gradient |
+| **Expo** | Dark, tight letter-spacing, code | Dark dev |
+| **Linear** | Ultra-minimal, precise, purple | `#08090a` + `#5e6ad2` |
+| **Lovable** | Playful gradients, friendly dev | Gradient |
+| **Mintlify** | Clean, green, reading-optimized | Green |
+| **PostHog** | Playful, dev-friendly dark | Dark + accent |
+| **Raycast** | Dark chrome, vibrant gradients | Dark + gradient |
+| **Resend** | Minimal dark, monospace accents | Dark minimal |
+| **Sentry** | Dark dashboard, data-dense, pink-purple | `#08090a` + purple |
+| **Supabase** | Dark emerald, code-first | Dark + emerald |
+| **Superhuman** | Premium dark, keyboard-first | Dark + purple glow |
+| **Vercel** | Black/white, Geist font | `#000`/`#fff` |
+| **Warp** | Dark IDE, block commands | Dark IDE |
+| **Zapier** | Warm orange, illustration | Orange, warm |
+
+### Infrastructure & Cloud (6)
+| Design | Vibe | Key Colors |
+|--------|------|------------|
+| **ClickHouse** | Yellow technical docs | Yellow |
+| **Composio** | Modern dark, colorful icons | Dark + multi |
+| **HashiCorp** | Enterprise clean, black/white | Enterprise |
+| **MongoDB** | Green leaf, dev docs | Green |
+| **Sanity** | Red accent, content-first editorial | Red |
+| **Stripe** | Signature purple, weight-300 elegance | Purple gradient |
+
+### Design & Productivity (9)
+| Design | Vibe | Key Colors |
+|--------|------|------------|
+| **Airtable** | Colorful, friendly, structured data | Multi-color |
+| **Cal.com** | Clean neutral, scheduling | Neutral |
+| **Clay** | Organic, soft gradients, art-directed | Soft gradient |
+| **Figma** | Vibrant multi-color, playful | Multi-color |
+| **Framer** | Bold black/blue, motion-first | Black + blue |
+| **Intercom** | Friendly blue, conversational UI | Blue |
+| **Miro** | Bright yellow, infinite canvas | Yellow |
+| **Notion** | Warm minimalism, serif headings | Warm neutral |
+| **Pinterest** | Red accent, masonry, image-first | Red |
+| **Webflow** | Blue, polished marketing | Blue |
+
+### Fintech & Crypto (4)
+| Design | Vibe | Key Colors |
+|--------|------|------------|
+| **Coinbase** | Clean blue, institutional trust | Blue |
+| **Kraken** | Purple dark, data-dense dashboards | Purple dark |
+| **Revolut** | Sleek dark, gradient cards | Dark gradient |
+| **Wise** | Bright green, friendly and clear | Green |
+
+### Enterprise & Consumer (6)
+| Design | Vibe | Key Colors |
+|--------|------|------------|
+| **Airbnb** | Warm coral, photography, rounded | Coral `#FF5A5F` |
+| **Apple** | Premium whitespace, SF Pro, cinematic | White space |
+| **IBM** | Carbon design system, structured blue | IBM Blue |
+| **NVIDIA** | Green-black, technical power | Green-black |
+| **SpaceX** | Stark black/white, full-bleed | Black/white |
+| **Spotify** | Vibrant green on dark, bold type | `#1DB954` dark |
+| **Uber** | Bold black/white, tight type | Black/white |
+
+### Car Brands (5)
+| Design | Vibe | Key Colors |
+|--------|------|------------|
+| **BMW** | Dark premium, German engineering | Dark premium |
+| **Ferrari** | Chiaroscuro, Ferrari Red sparse | Red on black/white |
+| **Lamborghini** | True black, gold, Neo-Grotesk | Black + gold |
+| **Renault** | Aurora gradients, NouvelR type | Aurora gradient |
+| **Tesla** | Radical subtraction, cinematic | Black/white |
+
+## How to Use
+
+### Option 1: Direct from your repo (recommended)
+Copy a DESIGN.md directly into your project:
+
+```bash
+# Example: get Linear's design system
+curl -L \
+  "https://raw.githubusercontent.com/Goncalo009/awesome-design-md/main/design-md/linear.app/DESIGN.md" \
+  -o DESIGN.md
+```
+
+### Option 2: Clone + Copy
+```bash
+git clone --depth 1 https://github.com/Goncalo009/awesome-design-md.git /tmp/design-md
+cp /tmp/design-md/design-md/<site-name>/DESIGN.md /your/project/
+```
+
+### Option 3: Ask the agent
+Tell the agent: "load skill awesome-design-md and use the Linear design system"
+
+### With AI Coding Agents
+Once DESIGN.md is in your project root:
+
+1. **Google Stitch**: Automatically picks it up when generating UI layouts
+2. **Claude Code**: `Read the DESIGN.md file and build a hero section that follows this design system`
+3. **Codex/OpenCode**: `Implement a card component using the tokens from DESIGN.md`
+4. **manual**: Reference specific sections — colors, typography, components
+
+## When to Use
+
+- Starting a new project and need a proven design system instantly
+- You want your UI to look like Linear/Vercel/Stripe/Notion
+- Google Stitch layout generation (needs a DESIGN.md reference)
+- Converting a Stitch design to Next.js with design tokens
+- Client wants "something like Linear but for X"
+
+## Quick Copy Commands
+
+```bash
+BASE="https://raw.githubusercontent.com/Goncalo009/awesome-design-md/main/design-md"
+
+# Linear — ultra-minimal dark with purple accent
+curl -L "$BASE/linear.app/DESIGN.md" -o DESIGN.md
+
+# Vercel — black/white, Geist font, clean
+curl -L "$BASE/vercel/DESIGN.md" -o DESIGN.md
+
+# Stripe — purple gradients, weight-300 elegance
+curl -L "$BASE/stripe/DESIGN.md" -o DESIGN.md
+
+# Notion — warm minimalism, serif headings
+curl -L "$BASE/notion/DESIGN.md" -o DESIGN.md
+
+# Supabase — dark emerald, code-first
+curl -L "$BASE/supabase/DESIGN.md" -o DESIGN.md
+
+# Coinbase — clean blue, institutional
+curl -L "$BASE/coinbase/DESIGN.md" -o DESIGN.md
+
+# Spotify — green on dark, bold type
+curl -L "$BASE/spotify/DESIGN.md" -o DESIGN.md
+
+# Airbnb — warm coral, photography-driven
+curl -L "$BASE/airbnb/DESIGN.md" -o DESIGN.md
+```
+
+## Pitfalls
+
+- **Don't mix designs** — pick ONE design system per project, mixing breaks cohesion
+- **DESIGN.md is NOT the final CSS** — it defines tokens, not implementations. The AI agent generates the code.
+- **Custom fonts** — Some designs use proprietary fonts (Berkeley Mono on Linear). Use fallbacks from the design file.
+- **Weight 510 on Inter** — Linear's signature weight is non-standard. Use `font-weight: 510` if using Inter Variable.
+- **Color precision** — Don't approximate colors. Use exact hex values from the DESIGN.md.
+- **Update check** — The original VoltAgent repo gets updated periodically. Sync as needed.
