@@ -1,0 +1,17 @@
+*.local
+.env
+.env.local
+.env.*.local
+node_modules/
+.next/
+out/
+dist/
+.DS_Store
+*.pem
+
+# DESIGN.md specific
+design-md/
+
+# Build artifacts
+*.tsbuildinfo
+.cache/
