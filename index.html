@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fogo & Brasa - Churrascaria Artesanal</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Fogo & Brasa 🔥</a>
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Início</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">Sobre</a></li>
+                    <li class="nav__item"><a href="#menu" class="nav__link">Cardápio</a></li>
+                    <li class="nav__item"><a href="#gallery" class="nav__link">Galeria</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contato</a></li>
+                </ul>
+                <button class="nav__close" id="nav-close">✕</button>
+            </div>
+
+            <button class="nav__toggle" id="nav-toggle">☰</button>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- Hero Section -->
+        <section class="hero section" id="home">
+            <div class="hero__container container grid">
+                <div class="hero__content">
+                    <span class="hero__subtitle gs-reveal">Autêntico Sabor</span>
+                    <h1 class="hero__title gs-reveal">O Melhor <br><span>Churrasco</span> da Cidade</h1>
+                    <p class="hero__description gs-reveal">Experimente cortes selecionados preparados com técnica artesanal e paixão pelo fogo.</p>
+                    <div class="hero__buttons gs-reveal">
+                        <a href="#menu" class="button button--primary">Ver Cardápio</a>
+                        <a href="#contact" class="button button--outline">Reservar Mesa</a>
+                    </div>
+                </div>
+                <div class="hero__image gs-reveal-right">
+                    <div class="hero__img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600&h=600&fit=crop" alt="Churrasco delicioso" class="hero__img">
+                    </div>
+                </div>
+            </div>
+            <div class="hero__scroll">
+                <span class="hero__scroll-text">Role para baixo</span>
+                <div class="hero__scroll-line"></div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about section" id="about">
+            <div class="container">
+                <div class="section__header gs-reveal-up">
+                    <span class="section__subtitle">Nossa História</span>
+                    <h2 class="section__title">Tradição em Cada <span>Brasa</span></h2>
+                </div>
+                
+                <div class="about__content grid">
+                    <div class="about__images gs-reveal-left">
+                        <div class="about__img-box about__img-box--1">
+                            <img src="https://images.unsplash.com/photo-1544025162-d76690b67f61?w=400&h=500&fit=crop" alt="Chef preparando churrasco" class="about__img">
+                        </div>
+                        <div class="about__img-box about__img-box--2">
+                            <img src="https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?w=400&h=300&fit=crop" alt="Cortes de carne" class="about__img">
+                        </div>
+                    </div>
+                    
+                    <div class="about__info gs-reveal-right">
+                        <p class="about__text">Há mais de 15 anos, o Fogo & Brasa traz o autêntico churrasco gaúcho para sua mesa. Nossa paixão pelo fogo e pela tradição nos torna únicos.</p>
+                        <p class="about__text">Trabalhamos apenas com carnes selecionadas de produtores locais, garantindo qualidade e sustentabilidade em cada corte servido.</p>
+                        
+                        <div class="about__features">
+                            <div class="feature">
+                                <span class="feature__icon">🥩</span>
+                                <span class="feature__text">Cortes Premium</span>
+                            </div>
+                            <div class="feature">
+                                <span class="feature__icon">🔥</span>
+                                <span class="feature__text">Fogo de Chão</span>
+                            </div>
+                            <div class="feature">
+                                <span class="feature__icon">🍷</span>
+                                <span class="feature__text">Vinhos Selecionados</span>
+                            </div>
+                        </div>
+                        
+                        <a href="#contact" class="button button--primary">Conheça Mais</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Menu Section -->
+        <section class="menu section" id="menu">
+            <div class="container">
+                <div class="section__header gs-reveal-up">
+                    <span class="section__subtitle">Nosso Cardápio</span>
+                    <h2 class="section__title">Especialidades da <span>Casa</span></h2>
+                </div>
+
+                <div class="menu__tabs gs-reveal-up">
+                    <button class="menu__tab active" data-tab="carnes">Carnes</button>
+                    <button class="menu__tab" data-tab="acompanhamentos">Acompanhamentos</button>
+                    <button class="menu__tab" data-tab="bebidas">Bebidas</button>
+                </div>
+
+                <div class="menu__content">
+                    <!-- Carnes -->
+                    <div class="menu__grid active" id="carnes">
+                        <div class="menu__item gs-scale-up">
+                            <div class="menu__img-wrapper">
+                                <img src="https://images.unsplash.com/photo-1600891964092-4316c288032e?w=400&h=300&fit=crop" alt="Picanha" class="menu__img">
+                            </div>
+                            <h3 class="menu__title">Picanha Nobre</h3>
+                            <p class="menu__desc">Corte premium grelhado no ponto perfeito</p>
+                            <span class="menu__price">R$ 89,90</span>
+                        </div>
+                        <div class="menu__item gs-scale-up">
+                            <div class="menu__img-wrapper">
+                                <img src="https://images.unsplash.com/photo-1558030006-4506719b7567?w=400&h=300&fit=crop" alt="Costela" class="menu__img">
+                            </div>
+                            <h3 class="menu__title">Costela ao Fogo de Chão</h3>
+                            <p class="menu__desc">Assada lentamente por 6 horas</p>
+                            <span class="menu__price">R$ 76,90</span>
+                        </div>
+                        <div class="menu__item gs-scale-up">
+                            <div class="menu__img-wrapper">
+                                <img src="https://images.unsplash.com/photo-1594041680534-e8c8cdebd659?w=400&h=300&fit=crop" alt="Ancho" class="menu__img">
+                            </div>
+                            <h3 class="menu__title">Ancho Black Angus</h3>
+                            <p class="menu__desc">Marmorização perfeita e sabor intenso</p>
+                            <span class="menu__price">R$ 94,90</span>
+                        </div>
+                        <div class="menu__item gs-scale-up">
+                            <div class="menu__img-wrapper">
+                                <img src="https://images.unsplash.com/photo-1546964124-0cce460f38ef?w=400&h=300&fit=crop" alt="Cordeiro" class="menu__img">
+                            </div>
+                            <h3 class="menu__title">Carré de Cordeiro</h3>
+                            <p class="menu__desc">Temperado com ervas finas</p>
+                            <span class="menu__price">R$ 82,90</span>
+                        </div>
+                    </div>
+
+                    <!-- Acompanhamentos -->
+                    <div class="menu__grid" id="acompanhamentos">
+                        <div class="menu__item gs-scale-up">
+                            <div class="menu__img-wrapper">
+                                <img src="https://images.unsplash.com/photo-1574484284008-be9d6282709e?w=400&h=300&fit=crop" alt="Pão de Alho" class="menu__img">
+                            </div>
+                            <h3 class="menu__title">Pão de Alho</h3>
+                            <p class="menu__desc">Receita caseira especial</p>
+                            <span class="menu__price">R$ 18,90</span>
+                        </div>
+                        <div class="menu__item gs-scale-up">
+                            <div class="menu__img-wrapper">
+                                <img src="https://images.unsplash.com/photo-1606851096673-35f80ca65e67?w=400&h=300&fit=crop" alt="Vinagrete" class="menu__img">
+                            </div>
+                            <h3 class="menu__title">Vinagrete Especial</h3>
+                            <p class="menu__desc">Tomates frescos e tempero único</p>
+                            <span class="menu__price">R$ 12,90</span>
+                        </div>
+                        <div class="menu__item gs-scale-up">
+                            <div class="menu__img-wrapper">
+                                <img src="https://images.unsplash.com/photo-1623428187969-5da2dcea5ebf?w=400&h=300&fit=crop" alt="Farofa" class="menu__img">
+                            </div>
+                            <h3 class="menu__title">Farofa de Bacon</h3>
+                            <p class="menu__desc">Crocante e saborosa</p>
+                            <span class="menu__price">R$ 14,90</span>
+                        </div>
+                        <div class="menu__item gs-scale-up">
+                            <div class="menu__img-wrapper">
+                                <img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=400&h=300&fit=crop" alt="Arroz" class="menu__img">
+                            </div>
+                            <h3 class="menu__title">Arroz Carreteiro</h3>
+                            <p class="menu__desc">Tradicional receita gaúcha</p>
+                            <span class="menu__price">R$ 16,90</span>
+                        </div>
+                    </div>
+
+                    <!-- Bebidas -->
+                    <div class="menu__grid" id="bebidas">
+                        <div class="menu__item gs-scale-up">
+                            <div class="menu__img-wrapper">
+                                <img src="https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=400&h=300&fit=crop" alt="Vinho Tinto" class="menu__img">
+                            </div>
+                            <h3 class="menu__title">Vinho Tinto Malbec</h3>
+                            <p class="menu__desc">Argentina - Taça</p>
+                            <span class="menu__price">R$ 28,90</span>
+                        </div>
+                        <div class="menu__item gs-scale-up">
+                            <div class="menu__img-wrapper">
+                                <img src="https://images.unsplash.com/photo-1605218427306-635ba2439af2?w=400&h=300&fit=crop" alt="Cerveja Artesanal" class="menu__img">
+                            </div>
+                            <h3 class="menu__title">Cerveja Artesanal IPA</h3>
+                            <p class="menu__desc">Produção local - 500ml</p>
+                            <span class="menu__price">R$ 22,90</span>
+                        </div>
+                        <div class="menu__item gs-scale-up">
+                            <div class="menu__img-wrapper">
+                                <img src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?w=400&h=300&fit=crop" alt="Caipirinha" class="menu__img">
+                            </div>
+                            <h3 class="menu__title">Caipirinha Tradicional</h3>
+                            <p class="menu__desc">Limão siciliano e cachaça premium</p>
+                            <span class="menu__price">R$ 24,90</span>
+                        </div>
+                        <div class="menu__item gs-scale-up">
+                            <div class="menu__img-wrapper">
+                                <img src="https://images.unsplash.com/photo-1544145945-f90425340c7e?w=400&h=300&fit=crop" alt="Suco" class="menu__img">
+                            </div>
+                            <h3 class="menu__title">Sucos Naturais</h3>
+                            <p class="menu__desc">Laranja, abacaxi ou maracujá</p>
+                            <span class="menu__price">R$ 12,90</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section class="gallery section" id="gallery">
+            <div class="container">
+                <div class="section__header gs-reveal-up">
+                    <span class="section__subtitle">Galeria</span>
+                    <h2 class="section__title">Momentos <span>Especiais</span></h2>
+                </div>
+
+                <div class="gallery__grid">
+                    <div class="gallery__item gallery__item--large gs-zoom-in">
+                        <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&h=600&fit=crop" alt="Churrasco na brasa" class="gallery__img">
+                        <div class="gallery__overlay">
+                            <span class="gallery__caption">Preparo Artesanal</span>
+                        </div>
+                    </div>
+                    <div class="gallery__item gs-zoom-in">
+                        <img src="https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?w=400&h=400&fit=crop" alt="Cortes de carne" class="gallery__img">
+                        <div class="gallery__overlay">
+                            <span class="gallery__caption">Cortes Premium</span>
+                        </div>
+                    </div>
+                    <div class="gallery__item gs-zoom-in">
+                        <img src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=400&h=400&fit=crop" alt="Drinks" class="gallery__img">
+                        <div class="gallery__overlay">
+                            <span class="gallery__caption">Drinks Especiais</span>
+                        </div>
+                    </div>
+                    <div class="gallery__item gs-zoom-in">
+                        <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=400&h=400&fit=crop" alt="Ambiente" class="gallery__img">
+                        <div class="gallery__overlay">
+                            <span class="gallery__caption">Ambiente Acolhedor</span>
+                        </div>
+                    </div>
+                    <div class="gallery__item gallery__item--tall gs-zoom-in">
+                        <img src="https://images.unsplash.com/photo-1544025162-d76690b67f61?w=400&h=600&fit=crop" alt="Chef" class="gallery__img">
+                        <div class="gallery__overlay">
+                            <span class="gallery__caption">Nossos Chefs</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials section">
+            <div class="container">
+                <div class="section__header gs-reveal-up">
+                    <span class="section__subtitle">Depoimentos</span>
+                    <h2 class="section__title">O Que Dizem <span>Nossos Clientes</span></h2>
+                </div>
+
+                <div class="testimonials__slider">
+                    <div class="testimonial gs-slide-left">
+                        <div class="testimonial__rating">★★★★★</div>
+                        <p class="testimonial__text">"O melhor churrasco que já provei! A picanha é simplesmente perfeita e o atendimento é impecável."</p>
+                        <div class="testimonial__author">
+                            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Cliente" class="testimonial__avatar">
+                            <div>
+                                <h4 class="testimonial__name">Carlos Silva</h4>
+                                <span class="testimonial__role">Cliente Frequente</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial gs-slide-left">
+                        <div class="testimonial__rating">★★★★★</div>
+                        <p class="testimonial__text">"Ambiente maravilhoso para reunir a família. Os acompanhamentos são deliciosos!"</p>
+                        <div class="testimonial__author">
+                            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Cliente" class="testimonial__avatar">
+                            <div>
+                                <h4 class="testimonial__name">Maria Santos</h4>
+                                <span class="testimonial__role">Cliente Verificada</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial gs-slide-left">
+                        <div class="testimonial__rating">★★★★★</div>
+                        <p class="testimonial__text">"Qualidade excepcional! Recomendo para todos que apreciam um bom churrasco."</p>
+                        <div class="testimonial__author">
+                            <img src="https://randomuser.me/api/portraits/men/67.jpg" alt="Cliente" class="testimonial__avatar">
+                            <div>
+                                <h4 class="testimonial__name">João Oliveira</h4>
+                                <span class="testimonial__role">Food Blogger</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section" id="contact">
+            <div class="container">
+                <div class="section__header gs-reveal-up">
+                    <span class="section__subtitle">Contato</span>
+                    <h2 class="section__title">Faça Sua <span>Reserva</span></h2>
+                </div>
+
+                <div class="contact__content grid">
+                    <div class="contact__info gs-reveal-left">
+                        <div class="contact__card">
+                            <span class="contact__icon">📍</span>
+                            <div>
+                                <h3 class="contact__card-title">Endereço</h3>
+                                <p class="contact__card-text">Rua das Brasas, 123<br>Centro - São Paulo/SP</p>
+                            </div>
+                        </div>
+                        <div class="contact__card">
+                            <span class="contact__icon">📞</span>
+                            <div>
+                                <h3 class="contact__card-title">Telefone</h3>
+                                <p class="contact__card-text">(11) 99999-9999<br>(11) 3333-3333</p>
+                            </div>
+                        </div>
+                        <div class="contact__card">
+                            <span class="contact__icon">⏰</span>
+                            <div>
+                                <h3 class="contact__card-title">Horários</h3>
+                                <p class="contact__card-text">Ter-Dom: 18h às 23h<br>Seg: Fechado</p>
+                            </div>
+                        </div>
+                        <div class="contact__social">
+                            <a href="#" class="contact__social-link">Instagram</a>
+                            <a href="#" class="contact__social-link">Facebook</a>
+                            <a href="#" class="contact__social-link">WhatsApp</a>
+                        </div>
+                    </div>
+
+                    <form class="contact__form gs-reveal-right" id="contact-form">
+                        <div class="form__group">
+                            <input type="text" class="form__input" placeholder="Seu Nome" required>
+                        </div>
+                        <div class="form__group">
+                            <input type="email" class="form__input" placeholder="Seu Email" required>
+                        </div>
+                        <div class="form__group">
+                            <input type="tel" class="form__input" placeholder="Seu Telefone" required>
+                        </div>
+                        <div class="form__group">
+                            <select class="form__input" required>
+                                <option value="">Número de Pessoas</option>
+                                <option value="2">2 Pessoas</option>
+                                <option value="4">4 Pessoas</option>
+                                <option value="6">6 Pessoas</option>
+                                <option value="8+">8+ Pessoas</option>
+                            </select>
+                        </div>
+                        <div class="form__group">
+                            <textarea class="form__input form__textarea" placeholder="Mensagem (opcional)" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="button button--primary button--full">Enviar Reserva</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content grid">
+                <div class="footer__brand">
+                    <a href="#" class="footer__logo">Fogo & Brasa 🔥</a>
+                    <p class="footer__text">O autêntico sabor do churrasco gaúcho com tradição e qualidade.</p>
+                </div>
+                <div class="footer__links">
+                    <h3 class="footer__title">Links Rápidos</h3>
+                    <ul>
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#about">Sobre</a></li>
+                        <li><a href="#menu">Cardápio</a></li>
+                        <li><a href="#contact">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer__newsletter">
+                    <h3 class="footer__title">Newsletter</h3>
+                    <p class="footer__text">Receba ofertas exclusivas</p>
+                    <form class="footer__form">
+                        <input type="email" placeholder="Seu email" class="footer__input">
+                        <button type="submit" class="button button--primary">Enviar</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2024 Fogo & Brasa. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
